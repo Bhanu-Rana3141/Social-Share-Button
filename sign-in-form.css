@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+   color: white;
+   font-family: sans-serif;
+   width: 1200px;   
+}
+
+#login-heading{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    left: 75px;
+    font-size: xx-large;
+    font-size: 40px;
+    font-weight: 900px;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+    left: 80px;
+    font-family: sans-serif;
+
+}
+
+#username{
+    margin: 0px 12px;
+    border-radius: 25px;
+    padding: 5px;
+    /* border: 1px solid white; */
+    border: 5px solid rgb(23, 224, 255);
+}
+
+#password{
+    margin: 0px 16px ;
+    border-radius: 25px;
+    padding: 5px;
+    /* border: 1px solid white; */
+    border: 5px solid rgb(23, 224, 255);
+}
+
+#email{
+    margin: 0px 28px;
+    border-radius:25px;
+    padding: 5px;
+    /* border: 1px solid white; */
+    border: 5px solid rgb(23, 224, 255);
+}
+
+#contact{
+    margin: 0px 15px;
+    border-radius: 25px;
+    padding: 5px;
+    /* border: 1px solid white; */
+    border: 5px solid rgb(23, 224, 255);
+}
+#dob
+{
+    margin: 0px 47px;
+    border-radius: 25px;  
+    padding: 5px;
+    border: 5px solid rgb(23, 224, 255);
+
+}
+
+label:hover{
+    color: rgb(127, 255, 7);
+}
+
+.login-button{
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 0px 10px;
+}
+
+.login-link{
+    text-decoration: none;
+    color: #121212;
+    font-size: 16px;
+}
+
+.login-button:hover{
+    background-color: #b30606;
+
+}
+
+.login-link:hover{
+    color: rgb(222, 251, 0);
+}
+
+#login-heading-hover
+{
+    color: forestgreen;
+}
+#age-counter {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.recommended-section {
+    display: none;
+}
+

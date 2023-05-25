@@ -4,15 +4,27 @@
     box-sizing: border-box;
 }
 
-/* logo img */
-#logo{
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;  
+}
+
+table{
+    margin-left: 45px;
+}
+
+/* #logo{
     margin-top: 20px;
     position: relative;
     left: 30px;
-}
+} */
 
 /* LOGIN BUTTON */
-button{
+
+/* button{
     padding: 12px 24px;
     border-radius: 20px;
     background-color: #5A4BDA;
@@ -30,59 +42,76 @@ button{
 
 button:hover{
     background-color: #594bdaeb;
-}
-body{
-    font-family: sans-serif;  
-}
+} */
 
-/* navbar */
+/* NAVBAR */
 
-.navbar{
+/* .navbar{
     font-family: sans-serif;
     position: relative;
-    padding: 0px 0px 0px 30px;
     bottom: 70px;
-    right: 80px;
-    /* margin-top: 70px; */
-   
-}
-
-ul{
+    right: 80px;  
     list-style: none;
     text-align: center;
-    
-}
-li:hover{
-    color: #5A4BDA;
-}
+    position: fixed;
+    top: 40px;
+    right: 300px;
+} */
+
 li{
     display: inline;
     color: #121212;
     font-size: 14.8px;
     font-weight: 500;
 }
-li:hover{
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #121212;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+}
+li{
+    display: inline;
+    font-family: sans-serif;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+    padding: 0px 23px;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    font-size: 16.6px;
+
+}
+.nav:hover{
+    color: red;
+}
+button{
     cursor: pointer;
-    /* font-weight: 700; */
+}
+button:hover{
+    background-color: #594bdaeb;
 }
 
-/* NAVBAR */
-.nav{
-    padding: 0px 0px 0px 50px;
+/* NAV - li class*/
+
+/* .nav{  
     text-decoration: none;
     color: #121212;
     font-weight: 500;
+    font-size: 16px;
+    padding: 0px 0px 0px 45px;
 }
+
 .nav:hover{
     color: #5A4BDA;
     font-weight: 500;
-}
-
-
-/* social share button img */
-#Intro-pic{
-    margin-bottom: 110px;
-}
+    cursor: pointer;
+}  */
 
 h2{
     font-size: 45px;
@@ -90,6 +119,10 @@ h2{
     margin-top: 90px;
     margin-bottom: 90px; 
     color: #5A4BDA;
+}
+
+h2:hover{
+    text-decoration: underline;
 }
 
 .image{
@@ -105,20 +138,18 @@ h2{
     color: #5A4BDA;
     font-weight: 600;
 }
-/* Navbar padding,hover */
-
-h2:hover{
-    text-decoration: underline;
-}
 
 table{
     margin-bottom: 70px;
+    margin-left: 100px;
 }
 
 td{
     padding: 0px 0px 60px 0px;
 }
+
 /* IMAGES */
+
 .platforms{  
     margin-bottom: 110px;
 }
@@ -133,14 +164,92 @@ h3{
 
 /* ENTERTAINMENT */
 .movies{
-    padding: 0px 45px 0px 45px;
+    padding: 0px 45px;
 }
 
 .m-links{
     text-decoration: none;
-    padding: 0px 0px 0px 105px;
+    padding: 0px 0px 0px 110px;
 }
 .m-links:hover{
     color: #5A4BDA;
     font-weight: 700;
+}
+
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #121212;
+    color: #FFFFFF;
+}
+
+.logos{
+    position: relative;
+    top: 120px;
+    padding: 0px 0px 0px 70px;
+    width: 30%;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.h4-border{
+    border: 2px solid #f7871d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.categories{
+    width: 8%;
+    position: relative;
+    top: 45px;
+    left: 350px;
+}
+
+.footer-categories-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    padding: 0px 0px 10px 0px;
+    position: relative;
+    left: 40px;
+}
+
+.footer-categories-link:hover{
+    color: red;
+}
+
+.creators{
+    width: 8%;
+    position: relative;
+    left: 620px;
+    bottom: 160px;
+}
+
+#creatorsInner{
+    position: relative;
+    right: 40px;
+}
+
+.mail{
+    width: 8%;
+    position: relative;
+    bottom: 290px;
+    left: 830px;
+}
+
+.contact{
+    width: 9%;
+    position: relative;
+    bottom: 420px;
+    left: 1150px;
 }

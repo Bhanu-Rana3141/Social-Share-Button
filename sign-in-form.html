@@ -5,41 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <link rel="stylesheet" href="sign-in.css">
-    <link rel="shortcut icon" href="images\apple-touch-icon.png" type="image/x-icon">
-    <style>
-    
-    </style>
+    <link rel="stylesheet" href="sign-in-form.css">
+    <link rel="shortcut icon" href="images/apple-touch-icon.png" type="image/x-icon">
 </head>
 <body>
-    <p id="sign">Log In !</p>
-        <div class="container">
-            <form action="">
-                <label for="username">
-                    Username <input type="text" id="username" placeholder="Full Name"> <br><br>
-                </label>
-    
-               <label for="password">
-                    Password <input type="password" name="" id="password" placeholder="Minimum 8 characters"><br><br>
-               </label>
-    
-                <label for="contact">
-                    Phone No <input type="number" name="" id="contact" placeholder="+91-000-000-0000"><br><br>
-                </label>
-    
-                <label for="email">
-                Email Id <input type="email" name="" id="email" placeholder="abc123@gmail.com" >
-                </label>
-                
-                <br><br><br><br>
-                <!-- <a href="index.html"><input id="sub" class="s" type="submit" value="Login"> </a> -->
-                <button  id="log"><a id="link"  href="index.html">Login</a></button>
+    <p id="login-heading">LOGIN RIGHT NOW !!</p>
+    <div class="container">
+        <form action="">
+            <label for="username">
+                Username <input type="text" id="username" placeholder="Full Name"> <br><br>
+            </label>
 
-                <button  id="new"><a id="CA" href="create _account.html">Create Account</a></button>
+            <label for="password">
+                Password <input type="password" id="password" placeholder="Minimum 8 characters" required><br><br>
+            </label>
 
-               
-            </form>
-        </div>
-     
+            <label for="contact">
+                Phone No <input type="tel" id="contact" placeholder="+91-000-000-0000"><br><br>
+            </label>
+
+            <label for="email">
+                Email Id <input type="email" id="email" placeholder="abc123@gmail.com"><br><br>
+            </label>
+
+            <label for="dob">
+                D.O.B <input type="date" id="dob" placeholder="Eg: 12 Dec 2004" readonly>
+            </label>
+
+            <br><br>
+            <div id="age-counter"></div>
+
+            <br><br>
+            <button class="login-button"><a class="login-link" href="index.html">Login</a></button>
+            <button class="login-button"><a class="login-link" href="create _account.html">Create Account</a></button>
+        </form>
+    </div>
+
+    <div class="recommended-section recommended-section1">
+        <h2>Recommended Sites</h2>
+        <p>The Education sites are popular with people your age.</p>
+    </div>
+    <div class="recommended-section recommended-section2">
+        <h2>Recommended Sites</h2>
+        <p>The Education and Entertainment sites popular with people your age.</p>
+    </div>
+    <div class="recommended-section recommended-section3">
+        <h2>Recommended Sites</h2>
+        <p>This Entertainment and Shopping sites are popular with people your age.</p>
+    </div>
+    <div class="recommended-section recommended-section4">
+        <h2>Recommended Sites</h2>
+        <p>The Education sites are popular with people your age.</p>
+    </div>
+    <div class="recommended-section recommended-section5">
+        <h2>Recommended Sites</h2>
+        <p>The Shopping sites are popular with people your age.</p>
+    </div>
+    <div class="recommended-section recommended-section6">
+        <h2>Recommended Sites</h2>
+        <p>The Entertainment sites are popular with people your age.</p>
+    </div>
+
+    <script src="sign-in.js" >
+
+    </script>
+        
+    
 </body>
 </html>

@@ -10,26 +10,34 @@ h2{
     margin-bottom: 100px;
 }
 
-.bhanu,.Bhagya,.bharat{
+h2:hover{
+    color: #5A4BDA;
+}
+
+.bhanu,.bhagya,.bharat,.jakhar{
+    width: 500px;
+    height: 300px;
     position: relative;
     top: 70px;
-    width: 300px;
-    height: 300px;
     background-color: #171c24;
     margin-left: 30px;
     border-radius: 30px;
 }
+
+table{
+    margin-bottom: 100px;
+}
+
 td{
     padding: 20px 35px;
 }
-
 
 img{
     border-radius: 100px;
     border: 2px solid #5A4BDA;
     position: relative;
     bottom: 30%;
-    left: 15%;
+    left: 30%;
 }
 
 p{
@@ -53,4 +61,9 @@ a{
 
 #profession{
     color: #8dc63f;
+}
+
+.bhanu:hover,.bhagya:hover,.bharat:hover,.jakhar:hover{
+    scale: 1.1;
+    transition: .7s ease-in-out;
 }
